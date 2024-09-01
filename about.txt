@@ -1,0 +1,86 @@
+Certainly! Here’s a more detailed `about.txt` for the GitHub programming page:
+
+---
+
+# ISTIACK'S NUMBERING SYSTEM SUM AND CONVERTER (INSSAC)
+
+## Introduction
+
+ISTIACK'S NUMBERING SYSTEM SUM AND CONVERTER (INSSAC) is a command-line tool that allows users to perform arithmetic operations and convert numbers across various numbering systems, including binary, octal, decimal, and hexadecimal. This tool is designed to handle basic arithmetic operations as well as conversions between different number bases.
+
+## Features
+
+- **Arithmetic Operations**: Perform addition, subtraction, multiplication, and division on numbers in binary, octal, decimal, and hexadecimal formats.
+- **Number System Conversion**: Convert numbers between binary, octal, decimal, and hexadecimal formats.
+- **Validation**: Ensures that input numbers are valid for the selected numbering system.
+
+## Usage Instructions
+
+1. **Running the Program**:
+   - Clone the repository:
+     ```bash
+     git clone https://github.com/your-username/inssac.git
+     ```
+   - Navigate to the directory:
+     ```bash
+     cd inssac
+     ```
+   - Run the program:
+     ```bash
+     python inssac.py
+     ```
+
+2. **Interacting with the Program**:
+   - **Arithmetic Operations**:
+     - Choose the arithmetic operation you want to perform (+, -, ×, ÷).
+     - Select the numbering system (Binary, Octal, Decimal, Hexadecimal).
+     - Input the numbers for the operation.
+     - View results in decimal, binary, octal, and hexadecimal formats.
+
+   - **Number System Conversion**:
+     - Choose the source numbering system.
+     - Input the number to be converted.
+     - View the converted number in all other supported bases.
+
+## Example
+
+```plaintext
+*******************************
+*    ISTIACK'S NUMBERING SYSTEM SUM AND CONVERTER (INSSAC)
+*******************************
+What do you want to do?
+[1] +
+[2] -
+[3] ×
+[4] ÷
+[5] Convert numbering system from one to another
+Your choice (1-5): 1
+What number system's operation do you want?
+[1] Binary
+[2] Octal
+[3] Decimal
+[4] Hexadecimal
+Your choice (1-4): 3
+Enter the first decimal number: 10
+Enter the second decimal number: 20
+Result in decimal: 30
+Result in binary: 11110
+Result in octal: 36
+Result in hexadecimal: 1E
+```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit issues, suggestions, or pull requests.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contact
+
+For questions or feedback, please contact [Your Name] at [Your Email].
+
+---
+
+Replace `your-username` with your GitHub username, and `[Your Name]` and `[Your Email]` with your actual contact information.
